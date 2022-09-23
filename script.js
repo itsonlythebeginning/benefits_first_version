@@ -32,17 +32,20 @@ let header_link = document.querySelectorAll(".header_linkkk")
     header_burger.addEventListener("click", function gucci () {
 
         header_list.classList.add("header_list_active")
-        document.body.style.overflow = "hidden"
 
     });
 
 
-header_nav_close.addEventListener("click", function () {
+    header_nav_close.addEventListener("click", function () {
 
-    header_list.classList.remove("header_list_active")
-    document.body.style.overflow = "visible"
+        header_list.classList.remove("header_list_active")
 
-});
+
+    });
+
+
+
+
 
 
 
